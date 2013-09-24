@@ -2,7 +2,7 @@
 
 ## 1. High
 
-- Artciles/Images with that contain the searched item
+- Articles/Images with that contain the searched item
 - Facts about the searched item
 - Interesting images to support data
 - Search
@@ -11,8 +11,7 @@
 
 - Website branding, logo
 - Primary navigation
-- Fish that don't leave in deep sea
-
+- Categories
 ## 3. Low
 
 - contact information
