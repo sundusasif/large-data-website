@@ -1,7 +1,7 @@
 #http://robotstxt.org
 
 #Show search engines where to find our sitemap
-Sitemap: https://github.com/sundusasif/large-data-website/blob/gh-pages/sitemap.xml
+Sitemap: http://sundusasif.github.io/large-data-website/sitemap.xml
 
 
 User-agent: *
