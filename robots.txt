@@ -1,0 +1,11 @@
+#http://robotstxt.org
+
+#Show search engines where to find our sitemap
+Sitemap: https://github.com/sundusasif/large-data-website/blob/gh-pages/sitemap.xml
+
+
+User-agent: *
+#block images from showing in search results
+#Disallow: /img
+
+
