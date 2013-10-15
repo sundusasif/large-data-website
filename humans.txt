@@ -1,0 +1,28 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Sundus Asif <sundus_06@hotmail.com>
+GitHub: https://github.com/sundusasif
+Twitter: @sundusasif
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Icons from The Noun Project <http://thenounproject.com/>
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Dreamweaver CC
+- Git + GitHub
+- Markdown
+
+## Hosting
+
+- Funio <http://Funio.com>
