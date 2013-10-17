@@ -3,9 +3,53 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+	
   color: #5a5a5a;
+  background-color: #fff;
 }
+
+
+
+
+.logo {
+	
+		padding-top: 1px;
+		padding-bottom: 1px;
+ }
+
+.logo img {
+  display: block;
+  margin: 15px auto -15px auto;
+  vertical-align: bottom;
+  width: 100px;
+}
+	
+		
+@media screen and (min-width: 520px) {
+	
+	.logo img {
+ 
+	
+	width: 120px;
+}
+}
+	
+.divider-inside-bottom {
+  position:relative;
+  overflow:hidden; 
+  border-bottom:1px solid #ddd; 
+}
+.divider-inside-bottom:before {
+  content: ""; 
+  position:absolute; 
+  z-index: 1; 
+  width:96%;  
+  bottom: -10px; 
+  height: 10px; 
+  left: 2%; 
+  border-radius: 100px / 5px; 
+  box-shadow:0 0 18px rgba(0,0,0,0.6); 
+}	
 
 
 
@@ -14,70 +58,235 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 20;
+
+  margin: 0 auto -20px auto;
+  vertical-align: bottom;
+  text-align: center;
+  
 }
+
+
+@media screen and (min-width: 540px) {
+	
+.navbar-wrapper {
+
+   margin: 0 auto -35px auto;
+
+}
+}
+
+
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
-  padding-left: 0;
-  padding-right: 0;
+	
+  /*padding-left: 0;
+  padding-right: 0;*/
 }
 .navbar-wrapper .navbar {
-  padding-left: 15px;
-  padding-right: 15px;
+ /* padding-left: 15px;
+  padding-right: 15px;*/
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
+
+/* CAROUSEL*/
 .carousel {
-	
- height: 450px;
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 1;
+margin-left: auto;
+margin-right: auto;
+vertical-align: bottom;
 
+   width: 90%;
 
-text-align: center;
-margin: 100px 0 10px 0;
-}
-
-@media screen and (min-width: 768px) {
-	.carousel {
-	
-
-margin: 100px 45px 10px 45px;
-}
-
-}
-
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 450px;
-  background-color: #777;
 }
 
 .carousel-inner {
-	
-	
-	}
+  position: relative;
+  overflow: hidden;
 
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* this effects the image*/
-  min-width: 100%;
-  height: 450px;
 }
 
+.carousel .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+     -moz-transition: 0.6s ease-in-out left;
+      -ms-transition: 0.6s ease-in-out left;
+       -o-transition: 0.6s ease-in-out left;
+          transition: 0.6s ease-in-out left;
+	text-align: center;
+}
+
+.carousel .item > img {
+  display: block;
+  line-height: 1;
+  
+}
+
+
+.carousel p {
+  font-size: 13px;
+  font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+ 
+}
+
+
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+  display: block;
+}
+
+.carousel .active {
+  left: 0;
+}
+
+.carousel .next,
+.carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.carousel .next {
+  left: 100%;
+}
+
+.carousel .prev {
+  left: -100%;
+}
+
+.carousel .next.left,
+.carousel .prev.right {
+  left: 0;
+}
+
+.carousel .active.left {
+  left: -100%;
+}
+
+.carousel .active.right {
+  left: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.3;
+  filter: alpha(opacity=20);
+}
+
+.carousel-control.right {
+  right: 15px;
+  left: auto;
+}
+
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.carousel-caption {
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 15px 5px;
+ /* background: #333333;*/
+
+}
+
+@media screen and (min-width: 390px) {
+	
+.carousel-caption {
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+	
+	width: 100%;
+ 	 position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+}
+
+
+
+@media screen and (min-width: 580px) {
+	
+
+.carousel-caption p {
+	margin: 0 auto 0 auto;
+  width: 60%;
+  padding-bottom: 4px;
+  letter-spacing: 2px;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+	
+
+.carousel-caption p {
+
+  width: 50%;
+   padding-bottom: 15px;
+
+}
+
+}
+
+
+.carousel-caption h4,
+.carousel-caption p {
+  color: #666;
+}
+
+@media screen and (min-width: 390px) {
+	
+.carousel-caption p{
+	
+  color: #ffffff;
+}
+}
+
+
+@media screen and (min-width: 540px) {
+	
+.carousel-caption p{
+	
+ font-size: 14px;
+ line-height:1em;
+}
+}
+
+
+@media screen and (min-width: 680px) {
+	
+.carousel-caption p{
+	
+ font-size: 16px;
+ line-height:1em;
+}
+}
+
+/* CAROUSE ENDS */
 
 
 
@@ -110,6 +319,22 @@ font-size: 1.3em;
 }
 
 
+
+.marketing img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%); /* For Webkit browsers */
+filter: gray; /* For IE 6 - 9 */
+-webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+}
+
+.marketing img:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+
 /* Featurettes
 ------------------------- */
 
@@ -128,8 +353,11 @@ font-family: 'Archivo Black', sans-serif;
   line-height: 1;
   letter-spacing: 0.5px;
   font-size: 1.9em;
+  color: #323332;
  
 }
+
+
 
 
 .text-muted {
@@ -137,10 +365,28 @@ font-family: 'Archivo Black', sans-serif;
 font-family: 'Archivo Narrow', sans-serif;
 font-weight: 300;
 font-style: normal;
-
+color: #3e8887;
 
 }
 	
+
+
+.featurette img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%); /* For Webkit browsers */
+filter: gray; /* For IE 6 - 9 */
+-webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+}
+
+.featurette img:hover{
+filter: grayscale(0%);
+-webkit-filter: grayscale(0%);
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+
+
+
 
 .row{
 
@@ -149,10 +395,15 @@ font-style: normal;
 }
 
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
 
 /* First increment to heading sizes */
+
+@media (max-width: 200px) {
+
+.carousel-caption {
+position: static;
+}
+}
 
 @media (min-width: 560px) {
 	
@@ -168,6 +419,8 @@ font-size: 0.8em;
 
 
 }
+
+
 	
 	
 	
@@ -221,13 +474,6 @@ font-size: 1em;
   .navbar-wrapper .navbar {
     border-radius: 4px;
 	
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
   }
 
   .featurette-heading {
