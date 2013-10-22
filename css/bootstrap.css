@@ -102,6 +102,8 @@ fieldset {
   border: 1px solid #c0c0c0;
 }
 
+
+
 /*
 button,
 input,
@@ -525,44 +527,6 @@ figcaption {
 
  
 }
-/*
-.page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-  margin-bottom: 0;
-}
-
-.list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-*/
-
 
 .container {
   padding-right: 15px;
@@ -735,8 +699,6 @@ ol ol {
 }
 
 /* THE ACTUAL PARAGRAPH */
-
-
 
 
 @media (min-width: 768px) {
@@ -1091,7 +1053,7 @@ ol ol {
   
   
   .col-lg-5 {
-    width: 41.66666666666667%;
+    width: 33.33333333333333%;
   }
   .col-lg-6 {
     width: 50%;
@@ -1281,7 +1243,8 @@ fieldset[disabled] .btn {
 
 .btn-default {
   color: white;
-  background-color: #3e8887;;
+  background-color: #3e8887;
+  width: 195px;
  /* border-color: #cccccc;*/
   	}
        
@@ -1701,6 +1664,18 @@ footer a:hover {
 
 /* ///////////////////////////// ALL ABOUT NAV////////////////////////*/
 
+.searchbar {
+	
+	display: none;
+	
+	}
+	
+	
+label {
+	
+	
+	}
+
 a {text-decoration: none;}
 .nav-container {
     width: 90%;
@@ -1708,7 +1683,7 @@ a {text-decoration: none;}
     margin: 10px auto;
 }
 .toggleMenu {
-    display:  none;
+  
     background: #666;
     padding: 10px 15px;
     color: #fff;
@@ -1722,7 +1697,8 @@ a {text-decoration: none;}
 .nav {
     list-style: none;
      *zoom: 1;
-     background:#175e4c;
+     /*background:#175e4c;*/
+	
 }
 .nav:before,
 .nav:after {
@@ -1737,15 +1713,21 @@ a {text-decoration: none;}
     width: 9em;
 }
 .nav a {
-    padding: 10px 15px;
-    color:#fff;
+	font-size: 13px;
+     font-family: 'Archivo Narrow', sans-serif;
+font-weight: 300;
+letter-spacing: 1px;
+text-transform: uppercase;
+	
+    padding: 10px 10px 10px 0px;
+    color:#000;
 }
 .nav li {
     position: relative;
 }
 .nav > li {
     float: left;
-    border-top: 1px solid #104336;
+    /*border-top: 1px solid #104336;*/
 }
 .nav > li > .parent {
     background-image: url("images/downArrow.png");
@@ -1753,7 +1735,8 @@ a {text-decoration: none;}
     background-position: right;
 }
 .nav > li > a {
-    display: block;
+	
+   display: block;
 }
 .nav li  ul {
     position: absolute;
@@ -1768,7 +1751,8 @@ a {text-decoration: none;}
 }
 .nav li li a {
     display: block;
-    background: #1d7a62;
+    /*background: #1d7a62;*/
+	background: #CCC;
     position: relative;
     z-index:100;
     border-top: 1px solid #175e4c;
@@ -1779,28 +1763,57 @@ a {text-decoration: none;}
     border-top: 1px solid #1d7a62;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
+	.toggleMenu {
+    display:  none;
+   
+	
+
+}
+
+	
+	/*.searchbar {
+		display: block;
+		
+		float: right;
+		
+		}*/
+	
+}
+
+@media screen and (max-width:600px) {
+	
     .active {
-        display: block;
+       display: block;
+	  
     }
     .nav > li {
-        float: none;
+		
+		
+       float: none;
     }
     .nav > li > .parent {
 		
         background-position: 95% 50%;
     }
     .nav li li .parent {
-        background-image: url("images/downArrow.png");
+       background-image: url("images/downArrow.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
     }
     .nav ul {
+	
         display: block;
         width: 100%;
     }
+	
    .nav > li.hover > ul , .nav li li.hover ul {
         position: static;
     }
 
 }
+
+
+
+
+
