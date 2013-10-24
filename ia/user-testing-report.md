@@ -1,6 +1,6 @@
 # User Testing Report
 
-User testing was cond8:00 and 8:20 with the following participants:
+User testing was conducted between 8:00 and 8:20 with the following participants:
 
 - Grace Morton
 - Lisa
