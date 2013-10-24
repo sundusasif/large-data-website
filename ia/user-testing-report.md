@@ -45,4 +45,4 @@ User testing was cond8:00 and 8:20 with the following participants:
 ### Minor, Annoying, Won’t Hinder Completion
 - There should be a search bar where user can type in their query and get to the result faster
 
-- The rotating carousel should have clear information of the page that they are being linked to as users want to find information on it.
+- The rotating carousel should have clear information of the page that it is being linked to as users want to find information on it.
