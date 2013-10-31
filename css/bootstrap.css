@@ -1750,6 +1750,8 @@ text-transform: uppercase;
     top: 0;
 }
 .nav li li a {
+	width: 200px;
+	
     display: block;
     /*background: #1d7a62;*/
 	background: #CCC;
