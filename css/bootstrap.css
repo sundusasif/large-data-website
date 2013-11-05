@@ -9,6 +9,45 @@
 
 
 
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+		width: 100%;
+	z-index: 3000;
+	
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style-type: none;
+
+		
+	
+	
+	
+	}
+	
+	
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	
+	padding: 0.75em 1em;
+	position: absolute;
+
+	top: -10em;
+	background-color: #000;
+	
+	color: #fff;
+	text-decoration: none;
+	
+	}	
+	
+	
+	.skiplinks a:focus {
+		
+		top:0;
+		
+		}
 
 article,
 aside,
@@ -283,7 +322,7 @@ a {
 a:hover,
 a:focus {
   color: #2a6496;
-  /*text-decoration: underline;*/
+  text-decoration: underline;
   text-decoration: none;
   
 }
@@ -1676,6 +1715,7 @@ label {
 	
 	}
 
+
 a {text-decoration: none;}
 .nav-container {
     width: 90%;
@@ -1722,6 +1762,8 @@ text-transform: uppercase;
     padding: 10px 10px 10px 0px;
     color:#000;
 }
+
+
 .nav li {
     position: relative;
 }
@@ -1749,6 +1791,9 @@ text-transform: uppercase;
     left: 100%;
     top: 0;
 }
+
+
+
 .nav li li a {
 	width: 200px;
 	
