@@ -504,7 +504,7 @@ blockquote:before {
  
 }
 
-h5 {
+h5  {
 	font-size: 13px;
      font-family: 'Archivo Narrow', sans-serif;
 font-weight: 300;
@@ -1791,8 +1791,6 @@ text-transform: uppercase;
     left: 100%;
     top: 0;
 }
-
-
 
 .nav li li a {
 	width: 200px;
