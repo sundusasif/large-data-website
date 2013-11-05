@@ -29,7 +29,7 @@ var adjustMenu = function() {
 		} else {
 			$(".nav").show();
 		}
-		$(".nav li").unbind('mouseenter mouseleave');
+		$(".nav li").unbind('mouseenter mouseleave focus blur');
 		$(".nav li a.parent").unbind('click').bind('click', function(e) {
 			// must be attached to anchor element to prevent bubbling
 			e.preventDefault();
@@ -41,7 +41,7 @@ var adjustMenu = function() {
 		$(".nav").show();
 		$(".nav li").removeClass("hover");
 		$(".nav li a").unbind('click');
-		$(".nav li").unbind('mouseenter mouseleave').bind('mouseenter mouseleave', function() {
+		$(".nav li").unbind('mouseenter mouseleave focus blur').bind('mouseenter mouseleave focus blur', function() {
 		 	// must be attached to li so that mouseleave is not triggered when hover over submenu
 		 	$(this).toggleClass('hover');
 		});
