@@ -13,15 +13,47 @@
     width: 1px;
 }
 body {
-	/*background-image: url(../img/soft_wallpaper.png);
+	background-image: url(../img/brownpattern.jpg);
 background-repeat: repeat;
-*/
+
 
   /*padding-bottom: 40px;*/
+ 
   color: #5a5a5a;
-  background-color: #fff;
+	background-color: #e8e2cb;
 }
 
+
+.error-page {
+	
+	background-image: url(../img/brownpattern.jpg);
+	
+	background-repeat: repeat;
+	text-align: center;
+	
+	}
+	.error-page img{
+		
+	display: block;
+	margin: 120px auto 0 auto; /* Keeps it centered */
+ 	vertical-align: bottom;
+
+		
+		}
+
+
+
+.outside-wrapper {
+	
+	
+	
+	
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	
+	
+	}
 
 .divider-inside-bottom {
   position:relative;
@@ -40,17 +72,29 @@ background-repeat: repeat;
   box-shadow:0 0 18px rgba(0,0,0,0.6); 
 }
 
-.logo {
+
+header{
+	/*background-color: #5da1a0;*/
+	background-image: url(../img/brownblue.jpg);
 	
-		padding-top: 1px;
-		padding-bottom: 1px;
- 
+	
+	}
+
+.logo {
+/*background-color: #6cbfb7;*/
+/*background-color: #012222;*/
+	/*min-height: 250px;*/  /* Gives height to the top blue bar */
+	min-height: 200px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
 
 }
 
 .logo img {
   display: block;
-  margin: 15px auto -15px auto;
+	margin: 15px auto -15px auto; /* Keeps it centered */
+ 
   vertical-align: bottom;
   width: 100px;
 }
@@ -63,7 +107,7 @@ background-repeat: repeat;
 	.logo img {
  
 	
-	width: 120px;
+	width: 140px;
 }
 }
 
@@ -94,68 +138,34 @@ background-repeat: repeat;
 	}
 
 
-
-/* Flip around the padding for proper display in narrow viewports */
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-/*.carousel {
-	
- height: 450px;
-
-
-text-align: center;
-margin: -10px 0 10px 0;
-}*/
-
-/*@media screen and (min-width: 768px) {
-	/*.carousel {
-	
-
-margin: -10px 45px 10px 45px;
-}
-*/
-/*}*/
-
-/* Since positioning the image, we need to help out the caption */
-/*
-.carousel-caption {
-  z-index: 10;
-}
-*/
-/* Declare heights because of positioning of img element */
-/*.carousel .item {
-  height: 450px;
-  background-color: #777;
-}
-*/
-/*
-.carousel-inner {
-	
-	
-	}*/
-/*
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 450px;
-}
-*/
 /* ME PUTTING IN MY CAROUSEL*/
+
+	.large-carousel {
+		display: none;
+		
+		}
+		
+
+
 .carousel {
-  position: relative;
-  margin-bottom: 10px;
-  line-height: 1;
-margin-left: auto;
-margin-right: auto;
-vertical-align: bottom;
 
-   width: 90%;
+	position: relative;
+	margin-top: 30px;
+	margin-top: -1px;
+	margin-bottom: 10px;
+	line-height: 1;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
 
+	width: 100%;
+	max-width: 1200px;
+	box-shadow: 1px 1px 8px 5px rgba(176,173,169,0.5);
+	border-color: #e8e2cb;;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 .carousel-inner {
@@ -167,15 +177,15 @@ vertical-align: bottom;
 }
 
 .carousel .item {
-  position: relative;
-  display: none;
-  -webkit-transition: 0.6s ease-in-out left;
+	  position: relative;
+	  display: none;
+	  -webkit-transition: 0.6s ease-in-out left;
      -moz-transition: 0.6s ease-in-out left;
-      -ms-transition: 0.6s ease-in-out left;
-       -o-transition: 0.6s ease-in-out left;
-          transition: 0.6s ease-in-out left;
+     -ms-transition: 0.6s ease-in-out left;
+      -o-transition: 0.6s ease-in-out left;
+      transition: 0.6s ease-in-out left;
 		  
-		  text-align: center;
+	text-align: center;
 }
 
 .carousel .item > img {
@@ -188,11 +198,11 @@ vertical-align: bottom;
 
 
 .carousel p {
-  font-size: 13px;
-     font-family: 'Archivo Narrow', sans-serif;
-font-weight: 300;
-letter-spacing: 1px;
- 
+  	font-size: 13px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	 
 }
 
 
@@ -281,6 +291,8 @@ letter-spacing: 1px;
 
 @media screen and (min-width: 390px) {
 	
+	
+	
 .carousel-caption {
 	margin-left: auto;
 	margin-right: auto;
@@ -296,6 +308,8 @@ letter-spacing: 1px;
 
 
 @media screen and (min-width: 580px) {
+	
+	
 
 .carousel-caption p {
 	margin: 0 auto 0 auto;
@@ -307,7 +321,15 @@ letter-spacing: 1px;
 }
 
 @media screen and (min-width: 800px) {
-
+.small-carousel {
+	
+	display: none;
+	}
+	.large-carousel {
+		display: block;
+		
+		}
+		
 .carousel-caption {
 	max-width: 1200px;
 	
@@ -361,20 +383,61 @@ letter-spacing: 1px;
 
 
 
+
+#tagline{
+	margin: 20px auto 20px auto;
+	vertical-align: bottom;
+	display: block; 
+	max-width: 94%;
+	max-height: 100%; 
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	font-size: 16px; 
+	line-height: 1.4em; 
+	color: #768582; 
+	background-color: transparent; 
+	border-top: solid thin #B2AB86;
+	border-bottom: solid thin #B2AB86;
+	text-transform: uppercase; 
+	text-align: center;
+
+	}
+
+#tagline p{
+	max-width: 90%;
+	margin: 20px auto 20px auto; 
+	padding:0;
+	letter-spacing: 1px;
+	}
+
+
+@media (max-width: 750px) {
+#tagline{
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	margin-top: 30px;
+	margin-bottom: 10px;
+ 
+	font-size: 12px; 
+	
+	
+	}
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 
 }
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-5 {
 	
-	text-align: center;
+	/*text-align: center;*/
   margin-bottom: 20px;
     	
 	}
@@ -453,6 +516,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
 
 .featurette-divider {
 	width: 100%;
+	border-top: solid thin #B2AB86;
+
 	/*this makes is 100% of the parent which is container */
   /*margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }
