@@ -315,13 +315,13 @@ textarea {
 
 
 a {
-  color: #428bca;
-  text-decoration: none;
+  color: #3e8887;
+
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #3e8887;
   text-decoration: underline;
   text-decoration: none;
   
@@ -1691,7 +1691,7 @@ footer a:hover {
 
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
-  background: #4d4d4d;
+background-color: #062325;
   position: relative;
   min-height: 20px;
   border-top: 1px solid #656565;
@@ -1723,13 +1723,13 @@ footer a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: #f1f1f1;
+color: #e8e2cb;
   font-size: 14px;
   line-height: 1.5em;
   clear: both;
 }
 #bottom #content a {
-  color: #fdd600;
+  color: #e8e2cb;
 }
 #bottom #content a:hover {
   text-decoration: underline;
@@ -1822,14 +1822,21 @@ a {text-decoration: none;}
 .toggleMenu {
   
    /* background: #666;*/
-    padding: 10px 15px;
+   padding: 10px 15px;
    color: #e8e2cb;
 	width: 100%;
 	text-align: center;
+
 	
 
 }
 
+.toggleMenu a.hover{
+	
+	
+		text-decoration: uppercase;
+	
+	}
 
 .nav {
     list-style: none;
@@ -1847,7 +1854,8 @@ a {text-decoration: none;}
 }
 .nav ul {
     list-style: none;
-    width: 9em;
+   /* width: 9em;*/
+
 }
 .nav a {
 	font-size: 12px;
@@ -1901,7 +1909,11 @@ float: left;
     position: relative;
     z-index:100;
     border-top: 1px solid #e8e2cb;
-		background-color: red;
+	
+	background-color:rgba(5,29,31,0.9);
+	font-size: 11px;
+
+
 	
 }
 
@@ -1931,7 +1943,7 @@ float: left;
 		
 		font-size: 13px;
 
-		margin: 10px;
+		/*margin: 10px;*/
 		}
 
 
@@ -1977,10 +1989,25 @@ float: none;
 
 @media screen and (max-width:600px) {
 	
+	
+	
+	
+	
     .active {
        display: block;
 	  
     }
+	
+	.nav li li a {
+	width:  100%;
+	border-bottom: 1px solid #e8e2cb;
+
+
+	
+   
+
+	
+}
 	
 	
 	
