@@ -898,7 +898,183 @@ figcaption {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 640px) {
+	
+  .container {
+    /*width: 1170px;*/
+	/*width: 90%;*/
+	max-width: 2000px;
+  }
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+  .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+  
+  
+  .col-lg-5 {
+    width: 33.33333333333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+  .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+  .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-push-0 {
+    left: auto;
+  }
+  .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+  .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+  .col-lg-push-3 {
+    left: 25%;
+  }
+  .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+  .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+  .col-lg-push-6 {
+    left: 50%;
+  }
+  .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+  .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+  .col-lg-push-9 {
+    left: 75%;
+  }
+  .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+  .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+  .col-lg-pull-0 {
+    right: auto;
+  }
+  .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+  .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+  .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+  .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+  .col-lg-pull-7 {
+    right: 58.333333333333336%;
+	
+  }
+  .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+  .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+  .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+  .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+	
+  }
+  .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+}
+
+
+
+@media (min-width: 860px) {
+	
+		
+
+	
  /* .container {
     width: 970px;
   }*/
@@ -936,6 +1112,9 @@ figcaption {
   .col-md-7 {
     width: 58.333333333333336%;
   }
+  
+
+  
   .col-md-8 {
     width: 66.66666666666666%;
   }
@@ -1062,172 +1241,10 @@ figcaption {
 }
 
 
-@media (min-width: 640px) {
-  .container {
-    /*width: 1170px;*/
-	/*width: 90%;*/
-	max-width: 2000px;
-  }
-  .col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11 {
-    float: left;
-  }
-  .col-lg-1 {
-    width: 8.333333333333332%;
-  }
-  .col-lg-2 {
-    width: 16.666666666666664%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33333333333333%;
-  }
-  
-  
-  .col-lg-5 {
-    width: 33.33333333333333%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.333333333333336%;
-  }
-  .col-lg-8 {
-    width: 66.66666666666666%;
-  }
-  .col-lg-9 {
-    width: 75%;
-  }
-  .col-lg-10 {
-    width: 83.33333333333334%;
-  }
-  .col-lg-11 {
-    width: 91.66666666666666%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-  .col-lg-push-0 {
-    left: auto;
-  }
-  .col-lg-push-1 {
-    left: 8.333333333333332%;
-  }
-  .col-lg-push-2 {
-    left: 16.666666666666664%;
-  }
-  .col-lg-push-3 {
-    left: 25%;
-  }
-  .col-lg-push-4 {
-    left: 33.33333333333333%;
-  }
-  .col-lg-push-5 {
-    left: 41.66666666666667%;
-  }
-  .col-lg-push-6 {
-    left: 50%;
-  }
-  .col-lg-push-7 {
-    left: 58.333333333333336%;
-  }
-  .col-lg-push-8 {
-    left: 66.66666666666666%;
-  }
-  .col-lg-push-9 {
-    left: 75%;
-  }
-  .col-lg-push-10 {
-    left: 83.33333333333334%;
-  }
-  .col-lg-push-11 {
-    left: 91.66666666666666%;
-  }
-  .col-lg-pull-0 {
-    right: auto;
-  }
-  .col-lg-pull-1 {
-    right: 8.333333333333332%;
-  }
-  .col-lg-pull-2 {
-    right: 16.666666666666664%;
-  }
-  .col-lg-pull-3 {
-    right: 25%;
-  }
-  .col-lg-pull-4 {
-    right: 33.33333333333333%;
-  }
-  .col-lg-pull-5 {
-    right: 41.66666666666667%;
-  }
-  .col-lg-pull-6 {
-    right: 50%;
-  }
-  .col-lg-pull-7 {
-    right: 58.333333333333336%;
-  }
-  .col-lg-pull-8 {
-    right: 66.66666666666666%;
-  }
-  .col-lg-pull-9 {
-    right: 75%;
-  }
-  .col-lg-pull-10 {
-    right: 83.33333333333334%;
-  }
-  .col-lg-pull-11 {
-    right: 91.66666666666666%;
-  }
-  .col-lg-offset-0 {
-    margin-left: 0;
-  }
-  .col-lg-offset-1 {
-    margin-left: 8.333333333333332%;
-  }
-  .col-lg-offset-2 {
-    margin-left: 16.666666666666664%;
-  }
-  .col-lg-offset-3 {
-    margin-left: 25%;
-  }
-  .col-lg-offset-4 {
-    margin-left: 33.33333333333333%;
-  }
-  .col-lg-offset-5 {
-    margin-left: 41.66666666666667%;
-  }
-  .col-lg-offset-6 {
-    margin-left: 50%;
-  }
-  .col-lg-offset-7 {
-    margin-left: 58.333333333333336%;
-  }
-  .col-lg-offset-8 {
-    margin-left: 66.66666666666666%;
-  }
-  .col-lg-offset-9 {
-    margin-left: 75%;
-  }
-  .col-lg-offset-10 {
-    margin-left: 83.33333333333334%;
-  }
-  .col-lg-offset-11 {
-    margin-left: 91.66666666666666%;
-  }
-}
+
+
+@media (min-width: 992px) {
+
 
 /* //////////////////////////////// BUCKET BUTTONS ////////////////////////*/
 
@@ -1689,6 +1706,7 @@ footer a:hover {
 
 */
 
+}
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
 background-color: #062325;
@@ -1735,7 +1753,7 @@ color: #e8e2cb;
   text-decoration: underline;
 }
 
- }----------------------------------------Copyright-------------------------------------*/
+----------------------------------------Copyright-------------------------------------*/
 
 #copyright{
 	padding: 20px 0;
@@ -1800,6 +1818,9 @@ color: #e8e2cb;
 
 /* ///////////////////////////// ALL ABOUT NAV////////////////////////*/
 
+
+
+
 .searchbar {
 	
 	display: none;
@@ -1821,7 +1842,7 @@ a {text-decoration: none;}
 }
 .toggleMenu {
   
-   /* background: #666;*/
+
    padding: 10px 15px;
    color: #e8e2cb;
 	width: 100%;
@@ -1864,7 +1885,7 @@ a {text-decoration: none;}
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
 	color: #e8e2cb;
 }
 
@@ -1892,18 +1913,22 @@ float: left;
 }
 .nav > li.hover > ul {
 		
-    left: 0;
+   /* left: 0;*/
+   left: 0;
 }
 .nav li li.hover ul {
 
-    left: 100%;
-    top: 0;
+    /*left: 100%;*/ /* This was effecting the gap between the nav drops that couldnt be clicked*/
+	left: 40%; 
+    /*top: 0;*/
+	top: 100;
 }
 
 .nav li li a {
 	width: 200px;
 	
     display: block;
+	
     /*background: #1d7a62;*/
 	/*background: #CCC;*/
     position: relative;
@@ -1931,7 +1956,7 @@ float: left;
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 635px) {
 	.toggleMenu {
     display:  none;
    
@@ -1939,13 +1964,22 @@ float: left;
 
 }
 
+
+
 .nav a {
 		
 		font-size: 12px;
+		
 
 		/*margin: 10px;*/
 		}
+		
+.current {
+	
+	background-color:rgba(230,226,205,0.2);
 
+	
+	}
 
 .nav-container {
 
@@ -1987,11 +2021,17 @@ float: none;
 
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:635px) {
 	
 	
 	
+	.current {
 	
+	background-color:rgba(230,226,205,0.2);
+
+	
+	}
+
 	
     .active {
        display: block;
@@ -2003,7 +2043,7 @@ float: none;
 	border-bottom: 1px solid #e8e2cb;
 
 
-	
+
    
 
 	
@@ -2048,7 +2088,9 @@ float: none;
 		font-size: 14px;
 
 		margin-left: 25px;
-		margin-right: 25px
+		margin-right: 25px;
+		
+
 		}
 
 }

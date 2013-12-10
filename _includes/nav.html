@@ -1,77 +1,72 @@
 
       
- 
 <div class="nav-container" role="navigation" id="navigation">
 	  
-<a class="toggleMenu" href="#">Menu</a>
-<ul class = "nav">
-	<li  class="test">
-		<a href="index.html">The Deep Sea</a>
-		<ul class= "hover-box" >
-			<li>
-				<a href="article.html">Characteristics of the Deep Sea</a>
-			
-			</li>
-			<li>
-				<a href="article.html">Deep Sea Life</a>
-			
-			</li>
-		</ul>
-	</li>
-	<li>
-		<a href="article.html">Exploration</a>
-		
-	</li>
-	<li>
-		<a href="dwellers.html">Dwellers</a>
-		<ul>
-			<li>
-				<a href="dwellers.html">Diversity</a>
-				
-			</li>
-			<li>
-				<a href="article.html">Characteristics of Creatures</a>
-				
-			</li>
+    <a class="toggleMenu" href="#">Menu</a>
+    <ul class = "nav">
+        <li>
+            <a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">The Deep Sea</a>
+            <ul class= "hover-box" >
+                <li>
+                    <a href="{{site.baseurl}}/article.html" class="{% if page.url == '/article.html' %}current{% endif %}">Characteristics of the Deep Sea</a>
+                
+                </li>
+                <li>
+                    <a href="{{site.baseurl}}/article.html" class="{% if page.url == '/article.html' %}current{% endif %}">Deep Sea Life</a>
+                
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="{{site.baseurl}}/exploration.html" class="{% if page.url == '/exploration.html' %}current{% endif %}">Exploration</a>
             
-            <li>
-				<a href="dwellers.html">Some Creatures</a>
-                <ul>
-					<li><a href="anglerfish.html">Fangtooth Fish</a></li>
-					<li><a href="anglerfish.html">Angler Fish</a></li>
-					<li><a href="anglerfish.html">Viperfish</a></li>
-                    <li><a href="anglerfish.html">Giant Isopod</a></li>
-					<li><a href="anglerfish.html">Atlantic WOlffish</a></li>
-                    <li><a href="anglerfish.html">Vampire Squid</a></li>
-					<li><a href="anglerfish.html">Giant Tube Worms</a></li>
-                    	<li><a href="anglerfish.html">Giant Spider Crab</a></li>
-				</ul>
-				
-			</li>
-            
-		</ul>
-	</li>
-	<li>
-		<a href="article.html">Environmental Factors</a>
-		<ul>
-			<li>
-				<a href="article.html">Human Impact</a>
-				
-			</li>
-			<li>
-				<a href="article.html">Natural Changes</a>
-				</li>
-			
-		</ul>
-	</li>
-	
-  </ul>  
-   <!-- <div class="searchbar"> 
-<label>Search</label>
-<input type="search" placeholder="Search">
-</div>-->
-	
-	
+        </li>
+        <li>
+            <a href="{{site.baseurl}}/dwellers.html" class="{% if page.url == '/dwellers.html' %}current{% endif %}">Dwellers</a>
+            <ul>
+                <li>
+                    <a href="{{site.baseurl}}/dwellers.html" class="{% if page.url == '/dwellers.html' %}current{% endif %}">Diversity</a>
+                    
+                </li>
+                <li>
+                    <a href="{{site.baseurl}}/creaturecaharacteristics.html" class="{% if page.url == '/creaturecaharacteristics.html' %}current{% endif %}">Characteristics of Creatures</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="{{site.baseurl}}/dwellers.html" class="{% if page.url == '/dwellers.html' %}current{% endif %}">Some Creatures</a>
+                    <ul>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Fangtooth Fish</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Angler Fish</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Viperfish</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Giant Isopod</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Atlantic WOlffish</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Vampire Squid</a></li>
+                        <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Giant Tube Worms</a></li>
+                            <li><a href="{{site.baseurl}}/anglerfish.html" class="{% if page.url == '/anglerfis.html' %}current{% endif %}">Giant Spider Crab</a></li>
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+        </li>
+        <li>
+            <a href="{{site.baseurl}}/factors.html" class="{% if page.url == '/factors.html' %}current{% endif %}">Environmental Factors</a>
+            <ul>
+                <li>
+                    <a href="{{site.baseurl}}/factors.html" class="{% if page.url == '/factors.html' %}current{% endif %}">Human Impact</a>
+                    
+                </li>
+                <li>
+                    <a href="{{site.baseurl}}/factors.html" class="{% if page.url == '/factors.html' %}current{% endif %}">Natural Changes</a>
+                    </li>
+                
+            </ul>
+        </li>
+        
+      </ul>  
+
+
 	
 </div>
 
