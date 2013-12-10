@@ -141,75 +141,6 @@ fieldset {
   border: 1px solid #c0c0c0;
 }
 
-
-
-/*
-button,
-input,
-select,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: 100%;
-}
-
-button,
-input {
-  line-height: normal;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-}
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  padding: 0;
-  box-sizing: border-box;
-}
-
-input[type="search"] {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-  -webkit-appearance: textfield;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-*/
 @media print {
   * {
     color: #000 !important;
@@ -367,9 +298,7 @@ border: 0;
           transition: all 0.2s ease-in-out;
 }
 
-.img-circle {
-  /*border-radius: 50%;*/
-}
+
 
 hr {
   margin-top: 17px;
@@ -378,26 +307,7 @@ hr {
   border-top: 1px solid #eeeeee;
 }
 
-/*
-.page-links a:focus{
-	
-	text-decoration: none;
-	
-	}*/
 
-
-/*
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  border: 0;
-}
-*/
 p {
   margin: 0 0 10px;
 }
@@ -594,12 +504,7 @@ figcaption {
   clear: both;
 }
 
-.row {
-	
-	/*This was effecting the indentation of the header
-  /*margin-right: -15px;
-  margin-left: -15px;
-*/}
+
 
 .row:before,
 .row:after {
@@ -1666,46 +1571,6 @@ font-size: 13px;
 
 
 
-/*
-
-	footer {
-		
-	background-image: url(../img/footer.png);
-	background-repeat:repeat-x;
-	padding: 1em 0;
-	height: 100px;
-	width: 100%;
-	text-align: center;
-	color: #CCC;
-	min-width: 270px;
-	}
-
-
-footer ul {
-	
-	list-style: none;
-	padding: 0;
-
-}
-
-footer li {
-	margin-top: 20px;
-	list-style-type: none;
-	display: inline-block;
-	padding: 0 1em;
-
-}
-	
-
-
-footer a,
-footer a:hover {
-	color: #CCC;
-	font-size: 0.9em;
-
-
-*/
-
 }
 /* BOTTOM ------------------------------------------------------------*/
 #bottom {
@@ -1753,42 +1618,6 @@ color: #e8e2cb;
   text-decoration: underline;
 }
 
-----------------------------------------Copyright-------------------------------------*/
-
-#copyright{
-	padding: 20px 0;
-	max-width: 100%;
-	} 
-	
-#copyright p{
-	margin:0; 
-	padding: 0;
-	}
-
-.copyrightbottom, .copyrightbottom a{
-	color:#FCDF9C; 
-	background-color:#768582;
-	}
-	
-.fl_left{
-	float: left;
-	}
-	
-.fl_right{
-	float: left;
-	}
-
-#header, #container, #footer, #copyright{
-	display: block; 
-	max-width: 100%;
-	margin: 0 auto;
-	}
-
-		
-
-	
-	
-	/* MESSING*/
 
 
 .clearfix:before,
